@@ -41,7 +41,7 @@ def check_word_exists(word, hex_colour):
         existing_words[hex_colour.upper()] = word.upper()
     else:
         if word.endswith('o'):
-            check_word_exists(word[:-1], hex_colour)
+            check_word_exists(word[:-1], hex_colour[:-1])
 
 
 def map_hex_colour_to_word(hex_colour):
