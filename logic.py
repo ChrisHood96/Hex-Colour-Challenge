@@ -11,7 +11,7 @@ def create_smaller_dict():
 
 # Global var, a mapper and opening the dictionary file for comparison
 existing_words = {}
-# Mapper is very basic with 1:1 value checks
+# Mapper is very basic with 1:1 value checks, with more time we could add more, and write code to handle iterations
 mapper = {
     0: "o",
     1: "l",
