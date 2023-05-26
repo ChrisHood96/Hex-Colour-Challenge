@@ -50,7 +50,6 @@ def map_hex_colour_to_word(hex_colour):
     for i, j in enumerate(word_colour_list):
         if j.isnumeric():
             word_colour_list[i] = mapper[int(j)]
-    # print("".join(word_colour_list))
     check_word_exists("".join(word_colour_list), hex_colour)
 
 
